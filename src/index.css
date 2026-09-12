@@ -1,0 +1,27 @@
+@import url('https://fonts.googleapis.com/css2?family=Allura&family=DM+Sans:wght@400;500;600&family=Playfair+Display:ital,wght@0,400;0,500;1,400&display=swap');
+
+:root {
+  --forest: #2f3d34;
+  --olive: #6f8a73;
+  --rose: #d49a8c;
+  --natural: #e2d9c8;
+  --terra: #8b5e3c;
+  --ink: #29332b;
+  --paper: #f4eee4;
+  --serif: 'Playfair Display', Georgia, 'Times New Roman', serif;
+  --script: Allura, cursive;
+  --sans: 'DM Sans', 'Trebuchet MS', 'Segoe UI', sans-serif;
+  color: var(--ink);
+  background: var(--natural);
+  font: 16px/1.55 var(--sans);
+  font-synthesis: none;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+}
+
+* { box-sizing: border-box; }
+html { scroll-behavior: smooth; }
+body { margin: 0; min-width: 320px; background: var(--natural); }
+a { color: inherit; }
+button, a { -webkit-tap-highlight-color: transparent; }
+:focus-visible { outline: 2px solid var(--terra); outline-offset: 4px; }
