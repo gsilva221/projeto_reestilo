@@ -19,6 +19,7 @@ export function ProductCard({ product }: ProductCardProps) {
       <div className="product-info">
         <div>
           <h3>{product.name}</h3>
+          <span className="product-size">Tamanho {product.size}</span>
           <p>{product.description}</p>
         </div>
         <strong>R$ {product.price.toFixed(2).replace('.', ',')}</strong>
