@@ -91,13 +91,14 @@ h1 em, h2 em { color: var(--terra); font-style: italic; }
 .footer-label { margin-bottom: 6px; color: var(--olive); font-family: var(--serif); font-size: 16px; font-style: italic; }
 .footer-links a { color: var(--forest); font-size: 13px; }
 .footer-bottom { margin-top: 52px; padding-top: 16px; border-top: 1px solid var(--line); color: #526055; font-size: 11px; }
-.catalog-page { min-height: 65vh; padding-block: 78px 105px; }
+.catalog-page { min-height: 65vh; padding-block: 78px 105px; animation: catalog-enter .55s cubic-bezier(.2, .7, .2, 1) both; }
 .catalog-heading { display: flex; align-items: end; justify-content: space-between; gap: 28px; margin-bottom: 42px; }
 .catalog-heading h1 { margin-bottom: 15px; font-size: 58px; line-height: 1.05; }
 .catalog-heading h1 em { color: var(--terra); }
 .catalog-heading p:not(.section-kicker) { margin-bottom: 0; color: #455348; }
 .catalog-count { margin-bottom: 18px; color: var(--olive); font-size: 13px; }
 @keyframes hero-arrive { from { opacity: 0; transform: translateY(14px); } to { opacity: 1; transform: translateY(0); } }
+@keyframes catalog-enter { from { opacity: 0; transform: translateY(12px); } to { opacity: 1; transform: translateY(0); } }
 @media (max-width: 900px) {
   .hero-section { min-height: 580px; gap: 30px; }
   .hero-copy h1 { font-size: 62px; }

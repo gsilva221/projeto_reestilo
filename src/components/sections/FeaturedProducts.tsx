@@ -1,4 +1,3 @@
-import { Link } from 'react-router-dom'
 import { ProductCard } from '../ProductCard'
 import { products } from '../../data/products'
 
@@ -10,9 +9,9 @@ export function FeaturedProducts() {
           <p className="section-kicker">Achados do momento</p>
           <h2 id="collection-title">Peças para usar e reusar.</h2>
         </div>
-        <Link className="text-link" to="/catalogo">
+        <a className="text-link" href="/catalogo">
           Mostrar vestuário
-        </Link>
+        </a>
       </div>
       <div className="product-grid">
         {products.filter((product) => product.inStock).slice(0, 3).map((product) => (

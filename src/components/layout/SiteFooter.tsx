@@ -16,9 +16,9 @@ export function SiteFooter() {
             <span className="footer-label">Explore</span>
             <a href="/#vitrine">Vitrine</a>
             <a href="/#proposito">Nosso propósito</a>
-            <Link to="/catalogo">
+            <a href="/catalogo">
               Mostrar vestuário
-            </Link>
+            </a>
           </div>
           <div>
             <span className="footer-label">Acompanhe</span>
