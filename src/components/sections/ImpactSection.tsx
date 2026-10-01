@@ -15,7 +15,6 @@ export function ImpactSection() {
         <p className="section-kicker">Cuidado que vai além do vestir</p>
         <h2 id="impact-title">Uma parte de cada escolha ajuda quem precisa.</h2>
         <p>Parte do lucro do bazar apoia ONGs de proteção animal. Assim, uma peça ganha nova vida e o cuidado também chega a outros lugares.</p>
-        <a className="button button-light" href="mailto:oi@reestilo.com.br">Conheça nosso propósito</a>
       </div>
     </section>
   )
