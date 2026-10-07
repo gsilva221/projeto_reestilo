@@ -153,7 +153,7 @@ export const products: Product[] = [
   {
     id: '15',
     name: 'Bermuda Praia Clara',
-    price: 15,
+    price: 10,
     imageUrl: '/images/roupaBaixo4.jpg',
     category: 'Bermudas',
     description: 'Bermuda leve com corte descontraído e energia de verão.',
