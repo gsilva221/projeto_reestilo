@@ -9,7 +9,7 @@ export function FeaturedProducts() {
           <p className="section-kicker">Achados do momento</p>
           <h2 id="collection-title">Peças para usar e reusar.</h2>
         </div>
-        <a className="text-link" href="/catalogo">
+        <a className="text-link" href="/catalogo" target="_blank" rel="noopener noreferrer">
           Mostrar vestuário
         </a>
       </div>
